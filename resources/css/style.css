@@ -1,0 +1,36 @@
+/* Universal style */
+
+body {
+  font-family: "Helvetica", sans-serif;
+  font-weight: 18px;
+
+}
+
+h3 {
+  color: red;
+  font-size: 1rem;
+}
+
+/* Header */
+
+header {
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  height: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+}
+
+/* New arrival section */
+
+.container {
+  background-image: url(../images/moto.jpeg);
+  height: 25rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
