@@ -93,6 +93,7 @@ nav {
   background-color: firebrick;
   height: 2.5rem;
   align-items: center;
+  transition: max-height 0.4s;
 }
 
 a {
@@ -168,4 +169,30 @@ footer {
   background-color: black;
   display: flex;
   align-items: center;
+}
+
+/* Responsive design */
+
+.handle {
+  display: none;
+  width: 100%;
+  background-color: firebrick;
+  box-sizing: border-box;
+  color: white;
+}
+
+@media only screen and (max-width: 1024px) {
+  nav a {
+    display: none;
+  }
+  .handle {
+    display: flex;
+    align-items: center;
+  }
+  #last-box {
+    display: none;
+  }
+  .box {
+    width: 47%;
+  }
 }
