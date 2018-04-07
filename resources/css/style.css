@@ -131,6 +131,10 @@ nav a:hover {
   padding: 2rem;
 }
 
+.box-3 img {
+  margin-top: 2rem;
+}
+
 .box h3 {
   background-color: black;
   height: 2rem;
