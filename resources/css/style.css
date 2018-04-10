@@ -187,7 +187,7 @@ footer {
   }
   .handle {
     display: flex;
-    align-items: center;
+    justify-content: center;  
   }
   #last-box {
     display: none;
